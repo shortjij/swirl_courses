@@ -67,12 +67,12 @@
     third and fourth elements.
 
 - Class: cmd_question
-  Output: Let's try another. Type num_vect >= 6 without assigning the result to a
+  Output: Let's try another. Type num_vect =< 6 without assigning the result to a
     new variable.
   CorrectAnswer: num_vect >= 6
   AnswerTests: omnitest(correctExpr='num_vect >= 6')
   Hint: Don't create a new variable on this one. We just want to see the result of
-    num_vect >= 6. Make sure there is no space between the `>` and `=` symbols. Think
+    num_vect =< 6. Make sure there is no space between the `>` and `=` symbols. Think
     of them as one symbol representing 'greater than or equal to'.
 
 - Class: text
